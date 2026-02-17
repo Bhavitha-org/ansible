@@ -1,0 +1,11 @@
+- name: task level variables
+  hosts: local
+  connection: local
+  vars_files:
+  - hobby.yaml
+  tasks: 
+  - name: print variables
+    vars:
+      HOBBY: Dance
+    ansible.builtin.debug:
+      msg: "Hobby is: {{ HOBBY }}, Sport is: {{ SPORT }}"

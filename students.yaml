@@ -1,0 +1,27 @@
+- name: "Bhavitha"
+  dob: "03-04-2002"
+  mobile: 1234567890
+  addresses:
+  - type: "permanant"
+    flatNo: 203
+    area: "Madhapur"
+    city: "Hyderabad"
+  
+  - type: "current"
+    flatNo: 342
+    area: "Jp Nagar"
+    city: "Bangalore"
+
+- name: "Lakshmi"
+  dob: "03-04-2002"
+  mobile: 1234567890
+  addresses:
+  - type: "permanant"
+    flatNo: 203
+    area: "Madhapur"
+    city: "Hyderabad"
+  
+  - type: "current"
+    flatNo: 342
+    area: "Jp Nagar"
+    city: "Bangalore"

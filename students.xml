@@ -1,0 +1,50 @@
+<!-- Student Object -->
+<Students>
+    <student>
+        <FirstName>Bhavitha</FirstName>
+        <DOB>03-04-2002</DOB>
+        <Email>bhavitha342@gmail.com</Email>
+        <!-- <Address>18/19, Jp nagar</Address>           single line is called field -->
+        <!-- <Address>
+            <FlatNumber>203</FlatNumber>                this is called address object
+            <Colony>Jp nagar</Colony>
+            <City>Bangalore</City>
+        </Address> -->
+        <Addresses>
+            <PermAddress>
+                <FlatNumber>203</FlatNumber>               
+                <Colony>Jp nagar</Colony>
+                <City>Bangalore</City>
+            </PermAddress>
+            <CurrentAddress>
+                <FlatNumber>342</FlatNumber>               
+                <Colony>Madhapur</Colony>
+                <City>Hyderabad</City>
+            </CurrentAddress>
+        </Addresses>
+    </student>
+
+        <student>
+        <FirstName>Lakshmi</FirstName>
+        <DOB>03-04-2002</DOB>
+        <Email>lakshmi342@gmail.com</Email>
+        <!-- <Address>18/19, Jp nagar</Address>           single line is called field -->
+        <!-- <Address>
+            <FlatNumber>203</FlatNumber>                this is called address object
+            <Colony>Jp nagar</Colony>
+            <City>Bangalore</City>
+        </Address> -->
+        <Addresses>
+            <PermAddress>
+                <FlatNumber>203</FlatNumber>               
+                <Colony>Jp nagar</Colony>
+                <City>Bangalore</City>
+            </PermAddress>
+            <CurrentAddress>
+                <FlatNumber>342</FlatNumber>               
+                <Colony>Madhapur</Colony>
+                <City>Hyderabad</City>
+            </CurrentAddress>
+        </Addresses>
+    </student>
+</Students>

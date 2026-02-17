@@ -1,0 +1,47 @@
+{
+    "students": [
+        {
+            "firstName": "Bhavitha",
+            "dob": "03-04-2002",
+            "age": 23,
+            "addresses": [
+                {
+                    "type": "permanant",
+                    "flatNo": 203,
+                    "Area": "Jp Nagar",
+                    "City": "Bangalore"
+                },
+
+                {
+                    "type": "current",
+                    "flatNo": 342,
+                    "Area": "Madhapur",
+                    "City": "Hyderabad"
+                }
+            ],
+            "skills": ["ansible", "docker", "kubernetes"]
+        },
+
+        {
+            "firstName": "Lakshmi",
+            "dob": "03-04-2002",
+            "age": 23,
+            "addresses": [
+                {
+                    "type": "permanant",
+                    "flatNo": 203,
+                    "Area": "Jp Nagar",
+                    "City": "Bangalore"
+                },
+
+                {
+                    "type": "current",
+                    "flatNo": 342,
+                    "Area": "Madhapur",
+                    "City": "Hyderabad"
+                }
+            ],
+            "skills": ["ansible", "docker", "kubernetes"]
+        }
+    ]
+}

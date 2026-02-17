@@ -6,3 +6,9 @@
     ansible.builtin.package:  # or apt, yum, dnf depending on your target OS
       name: nginx
       state: present
+
+  - name: start nginx
+    ansible.builtin.service:
+    name: nginx
+    state: started
+    enabled: yes

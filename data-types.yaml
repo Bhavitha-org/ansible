@@ -5,7 +5,7 @@
     PERSON_NAME: "Bhavitha Lakkireddy"  #string
     AGE: 23      #int
     IS_WORKING: true       #bool
-    DETAILS:       #map/dictionary
+    DETAILS:       #map/dictionary {}
       EXPERIENCE: 3
       COMPANY: "Noventiq"
     SKILLS:      #list (starts with - or [])
@@ -16,8 +16,8 @@
   - name: print variables
     ansible.builtin.debug:
       msg: |
-        Person_name: {{ PERSON_NAME }}
-        Age: {{ AGE }}
-        Is working?: {{ IS_WORKING }}
-        Details: {{ DETAILS }}
-        Skills: {{ SKILLS }}
+        Person_name: {{ PERSON_NAME }} \n
+        Age: {{ AGE }} \n
+        Is working?: {{ IS_WORKING }} \n
+        Details: {{ DETAILS }} \n
+        Skills: {{ SKILLS }} \n

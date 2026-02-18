@@ -5,8 +5,8 @@
     NAME: "Badminton from PLAY"
   # vars_files: 
   # - hobby.yaml
-  vars_prompt:
-  - name: NAME
+  # vars_prompt:
+  # - name: NAME
     prompt: Enter name
     private: false
   tasks:

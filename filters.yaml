@@ -3,6 +3,7 @@
   connection: local
   vars:
     topics: linux, shell, ansible, terraform
+    topics1: djksk, hdj, dwjkhjwe, jejhkejw
   tasks:
   - name: greeting
     ansible.builtin.debug:
@@ -10,4 +11,4 @@
 
   - name: convert string to list
     ansible.builtin.debug:
-      msg: "{{ topics | split(',') }}"
+      msg: "{{ topics1 | split(',') }}"

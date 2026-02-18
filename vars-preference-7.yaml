@@ -1,14 +1,14 @@
 - name: variable preference
   hosts: local
   connection: local
-  vars:
-    NAME: "Badminton from PLAY"
+  # vars:
+  #   NAME: "Badminton from PLAY"
   # vars_files: 
   # - hobby.yaml
   # vars_prompt:
   # - name: NAME
-    prompt: Enter name
-    private: false
+    # prompt: Enter name
+    # private: false
   tasks:
   - name: print name
     # vars:

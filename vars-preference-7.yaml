@@ -3,8 +3,8 @@
   connection: local
   vars:
     NAME: "Badminton from PLAY"
-  vars_files: 
-  - hobby.yaml
+  # vars_files: 
+  # - hobby.yaml
   vars_prompt:
   - name: NAME
     prompt: Enter name

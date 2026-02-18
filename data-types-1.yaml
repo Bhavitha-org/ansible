@@ -12,12 +12,12 @@
       - Terraform
       - Docker
       - Kubernetes
-    tasks:
-    - name: print variables
-      ansible.builtin.debug:
-        msg: |
-          Person_name: {{ PERSON_NAME }}
-          Age: {{ AGE }}
-          Is working?: {{ IS_WORKING }}
-          Details: {{ DETAILS }}
-          Skills: {{ SKILLS }}
+  tasks:
+  - name: print variables
+    ansible.builtin.debug:
+      msg: |
+        Person_name: {{ PERSON_NAME }}
+        Age: {{ AGE }}
+        Is working?: {{ IS_WORKING }}
+        Details: {{ DETAILS }}
+        Skills: {{ SKILLS }}

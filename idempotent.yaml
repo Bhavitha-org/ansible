@@ -6,3 +6,6 @@
   - name: user creation
     ansible.builtin.user:
       name: johnd
+
+
+  #using ansible collections gives idempotency

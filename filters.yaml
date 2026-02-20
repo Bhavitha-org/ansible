@@ -50,8 +50,8 @@
 
   - name: convert lower to upper case_convert
     ansible.builtin.debug:
-      msg: {{ case_convert | upper }}
+      msg: "{{ case_convert | upper }}"
 
   - name: convert upper to lower case_convert
     ansible.builtin.debug:
-      msg: {{ case_convert | lower }}
+      msg: "{{ case_convert | lower }}"

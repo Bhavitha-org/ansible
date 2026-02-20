@@ -4,7 +4,7 @@
   vars:
     topics: linux, shell, ansible, terraform
     case_convert: devops with aws
-    myIp: "54.235.37.389"
+    myIp: "54.235.37.38"
     tagsMap:
       name: ansible
       project: roboshop

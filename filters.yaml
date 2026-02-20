@@ -4,7 +4,7 @@
   vars:
     topics: linux, shell, ansible, terraform
     case_convert: devops with aws
-    myIp: "54.235.37.38"
+    myIp: "54.235.37.389"
     tagsMap:
       name: ansible
       project: roboshop
@@ -59,4 +59,4 @@
 
   - name: check ipv4
     ansible.builtin.debug:
-      msg: "{{ myIp | ansible.utils.ipv4 }}"
+      msg: "{{ myIp | ansible.utils.ipv4 }}"        #belongs to the ansible.utils collection, and it requires a Python library called: netaddr
